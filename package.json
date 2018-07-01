@@ -1,0 +1,22 @@
+{
+  "name": "seena",
+  "version": "0.0.1",
+  "description": "Seena is a Design System that can help you building your prototype and product faster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevanus-id/seena.git"
+  },
+  "keywords": [
+    "seena", "design system", "atomic design"
+  ],
+  "author": "Stevanus Christopel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevanus-id/seena/issues"
+  },
+  "homepage": "https://github.com/stevanus-id/seena#readme"
+}
