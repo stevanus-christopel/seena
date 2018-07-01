@@ -4,19 +4,44 @@
   "description": "Seena is a Design System that can help you building your prototype and product faster.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "webpack --watch",
+    "test": "test",
+    "analyze": "NODE_ENV=production webpack -p --analyze",
+    "build": "NODE_ENV=production webpack -p"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stevanus-id/seena.git"
   },
   "keywords": [
-    "seena", "design system", "atomic design"
+    "seena",
+    "design system",
+    "atomic design"
   ],
   "author": "Stevanus Christopel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stevanus-id/seena/issues"
   },
-  "homepage": "https://github.com/stevanus-id/seena#readme"
+  "homepage": "https://github.com/stevanus-id/seena#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
+    "glob": "^7.1.2",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.2",
+    "webpack": "^4.14.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "react": "^16.4.1"
+  }
 }
