@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "test",
     "analyze": "NODE_ENV=production webpack -p --analyze",
     "build": "NODE_ENV=production webpack -p"
@@ -25,6 +26,8 @@
   },
   "homepage": "https://github.com/stevanus-id/seena#readme",
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.8",
+    "@storybook/react": "^3.4.8",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
@@ -42,6 +45,7 @@
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
-    "react": "^16.4.1"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   }
 }

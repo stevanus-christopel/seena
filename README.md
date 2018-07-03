@@ -1,3 +1,3 @@
 # Seena
 
-Seena is a Design System that can help you building your prototype and product faster.
+Seena is an example of Atomic Design based Design System with most recommended architecture.
